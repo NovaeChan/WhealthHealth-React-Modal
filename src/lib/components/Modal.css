@@ -1,41 +1,18 @@
-.modalContainer {
-    display: flex;
-    background-color: #f3f4f5;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5px;
-    width: 30%;
-    padding: 20px;
-    box-shadow: rgb(41 190 119 / 5%) 0px 2px 8px 0px;
-    text-align: center;
-    margin: 30px;
-    margin: auto;
-  }
-  
-  .overlay {
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    display: flex;
-    background-color: rgb(196 196 196 / 23%);
-    overflow: auto;
-  }
-  
-  .closeButton {
-    background-color: rgb(196 196 196 /3%);
-    align-items: center;
-    color: black;
-    justify-content: center;
-    top: 15px;
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;
-    cursor: pointer;
-    transform: scale(0.7);
-    right: 15px;
-    display: flex;
-  }
+.modal {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.modal-close-button {
+  font-size: 25px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  transition: 0.5s;
+}
+.modal-close-button:hover{
+  cursor: pointer;
+}
