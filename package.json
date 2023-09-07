@@ -7,7 +7,7 @@
     "component",
     "modal"
   ],
-  "version": "0.4.1",
+  "version": "0.4.0",
   "private": false,
   "module": "dist/index.js",
   "files": [
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "del dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "del dist && set NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
