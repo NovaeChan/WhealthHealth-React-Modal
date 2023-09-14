@@ -16,7 +16,7 @@ Install using `npm install whealthhealth-modal-react-component`
 
 Here's an example on how to use the modal 
 
-`
+```
 import { useState } from "react";
 import ModalModule from '../lib/index';
 
@@ -43,4 +43,5 @@ function Modal() {
   );
 }
 
-export default Modal;`
+export default Modal;
+```
