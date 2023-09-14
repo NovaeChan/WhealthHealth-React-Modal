@@ -7,7 +7,7 @@ Install using `npm install whealthhealth-modal-react-component`
 ## Props 
 
 | Name  | Type | Description | Required ? |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | Content  | String  | Modal's content message | Yes
 | displayModal  | Boolean  | Display modal or not | Yes
 | setDisplayModal | Boolean | Change value of displayModal | Yes
