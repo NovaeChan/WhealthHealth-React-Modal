@@ -12,12 +12,15 @@ const Modal = ({content, displayModal, setDisplayModal}) => {
         <>
             {
                 displayModal && 
-                <div className='modal'>
-                    <div className="modal-wrapper">
-                        <span className="modal-close-button" onClick={(e) => closeModal(e)}>X</span>
-                        <span className="modal-message">{content}</span>
+                <section className='overlay'>
+                    <div className='modal'>
+                        <div className="modal-wrapper">
+                            <span className="modal-close-button" onClick={(e) => closeModal(e)}>X</span>
+                            <span className="modal-message">{content}</span>
+                        </div>
                     </div>
-                </div>
+                </section>
+                
             }
         </>
     );
