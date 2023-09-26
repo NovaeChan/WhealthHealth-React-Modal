@@ -16,7 +16,9 @@ const Modal = _ref => {
   const closeModal = () => {
     setDisplayModal(false);
   };
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, displayModal && /*#__PURE__*/_react.default.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, displayModal && /*#__PURE__*/_react.default.createElement("section", {
+    className: "overlay"
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-wrapper"
@@ -25,7 +27,7 @@ const Modal = _ref => {
     onClick: e => closeModal(e)
   }, "X"), /*#__PURE__*/_react.default.createElement("span", {
     className: "modal-message"
-  }, content))));
+  }, content)))));
 };
 var _default = Modal;
 exports.default = _default;
