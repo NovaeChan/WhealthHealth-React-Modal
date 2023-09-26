@@ -7,12 +7,23 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 require("./Modal.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+//style
+
+/**
+ * 
+ * @component
+ * @returns {JSX.Element} The rendered modal component
+ */
 const Modal = _ref => {
   let {
     content,
     displayModal,
     setDisplayModal
   } = _ref;
+  /**
+   * Function to close the modal
+   * @returns {void}
+   */
   const closeModal = () => {
     setDisplayModal(false);
   };
